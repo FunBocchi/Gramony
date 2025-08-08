@@ -4,11 +4,12 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compatibleSdkVersion": "5.0.0(12)",
+        "compatibleSdkVersion": "5.0.3(15)",
         "runtimeOS": "HarmonyOS",
         "buildOption": {
-          //          "nativeCompiler": "BiSheng",
-        }
+          // "nativeCompiler": "BiSheng",
+        },
+        "targetSdkVersion": "5.0.3(15)",
       }
     ],
     "buildModeSet": [
@@ -24,13 +25,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "storePassword": "0000001D0B4CB13D1A547A0F2FF91DA382162D9006D2102203C7A17AC2BAAE459BD1DA8FA84240C2169CBFCA02",
-          "certpath": "./signing/Homogram_Debug.cer",
-          "keyAlias": "keystore",
-          "keyPassword": "0000001DA32D34919F41359B0CD97331538758E70FC5BB327E35EDCBA4202D3A493649B532EA4FE31DF0DB7B74",
-          "profile": "./signing/homogram_debug.p7b",
+          "certpath": "C:\\Users\\wt\\.ohos\\config\\default_Homogram_XM_3axYIBrbSYuZYGFbeuDReOLoxblHOau-zvjP0hIE=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC798DC92F8B386A4F76A2A4F8A2202E8DA3FC6947550798F32A4DF22AFBE8761B55FB54908DE09",
+          "profile": "C:\\Users\\wt\\.ohos\\config\\default_Homogram_XM_3axYIBrbSYuZYGFbeuDReOLoxblHOau-zvjP0hIE=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "./signing/keystore.p12"
+          "storeFile": "C:\\Users\\wt\\.ohos\\config\\default_Homogram_XM_3axYIBrbSYuZYGFbeuDReOLoxblHOau-zvjP0hIE=.p12",
+          "storePassword": "0000001B72A0068767E2D48E300C54EADA1CB5012E85CB9F4BEA49F05BE5E6A566E2779DD941FFFCED66DA"
         }
       }
     ]
